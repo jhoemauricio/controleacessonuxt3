@@ -7,6 +7,6 @@ export default defineNuxtRouteMiddleware((to,from) => {
     //verifica se autenticacao é false
     if(!useAuth.isAuthenticated){
        
-       return navigateTo('/login');
+       return navigateTo('/');
     }
 })

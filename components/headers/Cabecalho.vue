@@ -30,7 +30,7 @@ import { iseAuthStore } from '~/store/authTeste';
 const auth = iseAuthStore();
 const sair = async()=>{
     auth.logout();
-    return navigateTo('/login');
+    return navigateTo('/');
 }
 
 
